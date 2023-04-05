@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food4thought - Recipes, Menu Ideas and Cooking Tips</title>
+    <link rel="icon" type="image/x-icon" href="./logo/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&family=Libre+Baskerville:wght@400;700&family=Tangerine:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Nav menu -->
+    <nav id="nav-menu">
+      <button id="close-nav" class="close-nav">×</button>
+      <img src="./logo/favicon.png" alt="" width="60" height="60" />
+      <ul class="nav-items">
+        <li><a href="#">Recipes and Menus</a></li>
+        <li><a href="#">Expert Advice</a></li>
+        <li><a href="#">Ingredients</a></li>
+        <li><a href="#">Holidays and Events</a></li>
+        <li><a href="">Videos</a></li>
+      </ul>
+      <p>Follow us!</p>
+      <div class="nav-follow">
+        <a href="#"
+          ><img src="./logo/twitter.svg" alt="#" width="30" height="30"
+        /></a>
+        <a href="#"
+          ><img src="./logo/pinterest.svg" alt="#" width="30" height="30"
+        /></a>
+        <a href="#"
+          ><img src="./logo/instagram.svg" alt="#" width="30" height="30"
+        /></a>
+      </div>
+      <button>Sign In!</button>
+    </nav>
+
+    <!-- Header section -->
+    <header>
+      <div class="header-left">
+        <span class="material-icons" id="burger"><a href="#">menu</a></span>
+        <span class="material-icons" id="heart-left"
+          ><a href="#">favorite</a></span
+        >
+        <span class="header-text"><a href="#">Sign in</a></span>
+      </div>
+      <div class="header-mid">
+        <h1 class="logo"><a href="index.html">Food4thought</a></h1>
+      </div>
+      <div class="header-right">
+        <span class="material-icons" id="heart-right"
+          ><a href="#">favorite</a></span
+        >
+        <div class="header-follow">
+          <p class="header-text">Follow</p>
+          <a href="#"><img src="./logo/twitter.svg" alt="#" /></a>
+          <a href="#"><img src="./logo/pinterest.svg" alt="#" /></a>
+          <a href="#"><img src="./logo/instagram.svg" alt="#" /></a>
+        </div>
+        <a class="header-search" id="header-search" href="#">
+          <span class="header-text">Search</span
+          ><span class="material-icons">search</span>
+        </a>
+      </div>
+    </header>
+    <!-- Main body -->
+    <main>
+      <section class="search-utility">
+        <h1 class="search-heading">Find a recipe</h1>
+        <button id="search-button" class="material-icons search-box">
+          search
+        </button>
+        <a class="subheading" href="#">Advanced search</a>
+      </section>
+
+      <!-- Latest recipes carousel -->
+      <section class="latest-recipes">
+        <div class="heading-container">
+          <h2 class="latest-recipes-heading">Our Latest Recipes</h2>
+        </div>
+
+        <div class="recipe-slideshow">
+          <div class="recipe-slide">
+            <img src="./images/blackberry-shortcake.jpg" alt="" />
+            <h3 class="recipe-slideshow-title">
+              <a href="#">Extra Tender Blackberry Shortcake</a>
+            </h3>
+            <p class="subheading">Delectable</p>
+          </div>
+
+          <div class="recipe-slide">
+            <img src="./images/espresso-martini.jpg" alt="" />
+            <h3 class="recipe-slideshow-title">
+              <a href="#">Creamy Espresso Martini</a>
+            </h3>
+            <p class="subheading">Luxurious</p>
+          </div>
+
+          <div class="recipe-slide">
+            <img src="./images/shrimp-linguine.jpg" alt="" />
+            <h3 class="recipe-slideshow-title">
+              <a href="#">Linguine With Shrimp Sauce</a>
+            </h3>
+            <p class="subheading">Elegant</p>
+          </div>
+
+          <span id="slideshow-prev">&#10094;</span>
+          <span id="slideshow-next">&#10095;</span>
+          <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cook now -->
+      <section class="cook-now">
+        <div class="image-wrap">
+          <a href="#"><img src="./images/chicken-legs.jpg" alt="" /></a>
+
+          <div class="cook-now-content">
+            <div class="cook-now-heading-container">
+              <h3 class="box-heading cook-now-heading">Cook This Now</h3>
+            </div>
+            <h3>
+              <a class="link-heading" href="#"
+                >Youghurt Braised Chicken Legs with Garlic and Ginger</a
+              >
+            </h3>
+            <p>
+              Chicken legs seared until golden-brown and then slowly braised in
+              yoghurt spiked with garlic, ginger and lots of spices until
+              falling off the bone.
+            </p>
+            <a class="red-link" href="#">View Recipe</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter sign-up -->
+      <section class="newsletter-signup">
+        <p>Get our latest recipes and expert tips right in your inbox</p>
+        <div class="sign-up-form">
+          <input
+            type="text"
+            class="sign-up-box"
+            placeholder="YOUR EMAIL ADDRESS"
+          /><button class="sign-up-button">Sign up</button>
+        </div>
+      </section>
+
+      <section class="newsletter-content">
+        <div>
+          <h3 class="newsletter-subheading">
+            <i class="material-icons newsletter-icon"
+              >check_circle&nbsp;&nbsp;</i
+            >The Top Ten
+          </h3>
+          <p>
+            Become a better cook instantly with this weekly report of our ten
+            most helpful tips, tricks, and kitchen secrets. Don't miss it!
+          </p>
+        </div>
+        <div>
+          <h3 class="newsletter-subheading">
+            <i class="material-icons newsletter-icon"
+              >check_circle&nbsp;&nbsp;</i
+            >Cook Now
+          </h3>
+          <p>
+            Love recipes, but hate searching? We do the work for you. You'll get
+            our favorite seasonal recipe plus collections of our exclusive
+            editors' picks.
+          </p>
+        </div>
+        <div>
+          <h3 class="newsletter-subheading">
+            <i class="material-icons newsletter-icon"
+              >check_circle&nbsp;&nbsp;</i
+            >The Top Ten
+          </h3>
+          <p>
+            Get a daily does of the hottest recipes from Food4thought's top
+            editor's picks.
+          </p>
+        </div>
+      </section>
+
+      <!-- Featured news articles -->
+      <section class="featured-articles">
+        <article class="highlighted-article">
+          <div class="image-wrap">
+            <img class="article-image" src="./images/chinese.jpg" alt="" />
+            <div class="highlighted-article-content-container">
+              <div class="highlighted-article-content">
+                <p class="subheading">Chinese</p>
+                <h4 class="link-heading small">
+                  <a href="#">
+                    21 Chinese Chicken Recipes for Cozy Braises and
+                    Flavor-Packed Stir Fries
+                  </a>
+                </h4>
+                <p class="contributor">Kai Chen</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="article-grid-container">
+          <article class="featured-article">
+            <img class="article-image" src="./images/bowls.jpg" alt="" />
+            <div class="article-content">
+              <p class="subheading">Shopping</p>
+              <h4 class="link-heading small">
+                <a href="#"
+                  >Every Hack for Removing Sticker Residue from Your New
+                  Crockery</a
+                >
+              </h4>
+              <p class="contributor">Amila Brita</p>
+            </div>
+          </article>
+          <article class="featured-article">
+            <img class="article-image" src="./images/cocktails.jpg" alt="" />
+            <div class="article-content">
+              <p class="subheading">Cocktails</p>
+              <h4 class="link-heading small">
+                <a href="#">23 Sweet Cocktails to Use Up Those Bottles</a>
+              </h4>
+              <p class="contributor">Erika Andreia</p>
+            </div>
+          </article>
+          <article class="featured-article">
+            <img class="article-image" src="./images/kitchen.jpg" alt="" />
+            <div class="article-content">
+              <p class="subheading">Product Reviews</p>
+              <h4 class="link-heading small">
+                <a href="#">Our Guide to a Well-Equipped Kitchen</a>
+              </h4>
+              <p class="contributor">Marcel Sophronios</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Big Guide section -->
+      <section class="big-guide">
+        <div class="big-guide-heading-container">
+          <h3 class="box-heading big-guide-heading">The Big Guide</h3>
+        </div>
+        <div class="big-guide-img">
+          <img src="./images/spring-cake.jpg" alt="" />
+        </div>
+        <div class="big-guide-container">
+          <div class="big-guide-section-one">
+            <h4 class="padded">
+              <a class="link-heading lrg" href="#">Spring Bake</a>
+            </h4>
+            <p class="big-guide-info">
+              As spring arrives, it's time to fill your kitchen with
+              showstopping cakes, glorious pastries and the best breads you can
+              make.
+            </p>
+            <a class="red-link invisible" href="#">View Complete Guide</a>
+          </div>
+          <div class="big-guide-section-two">
+            <div class="big-guide-item">
+              <img src="./images/bday-cake.jpg" alt="" />
+              <h5>
+                <a class="link-heading xsmall" href="#"
+                  >31 Birthday Cake Recipes to Make Your Wishes Come True</a
+                >
+              </h5>
+            </div>
+            <div class="big-guide-item">
+              <img src="./images/muffins.jpg" alt="" />
+              <h5>
+                <a class="link-heading xsmall" href="#"
+                  >The Morning Glory Muffin Has a Story to Tell</a
+                >
+              </h5>
+            </div>
+            <div class="big-guide-item">
+              <img src="./images/flour.jpg" alt="" />
+              <h5>
+                <a class="link-heading xsmall" href="#"
+                  >How to Tell When Your Flour Has Gone Bad</a
+                >
+              </h5>
+              <a class="red-link remove" href="#">View Complete Guide</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick links site map -->
+      <section class="quick-links">
+        <div class="links-section">
+          <h4 class="links-heading">Quick Links</h4>
+          <ul class="links-list">
+            <li><a href="#">Breakfast Recipes</a></li>
+            <li><a href="#">Lunch Recipes</a></li>
+            <li><a href="#">Dinner Recipes</a></li>
+            <li><a href="#">Dessert Recipes</a></li>
+            <li><a href="#">Drinks Recipes</a></li>
+            <li><a href="#">Healthy Recipes</a></li>
+            <li><a href="#">Quick & Easy Recipes</a></li>
+          </ul>
+        </div>
+        <div class="links-section">
+          <h4 class="links-heading">Best Of</h4>
+          <ul class="links-list">
+            <li><a href="#">Valentine's Day Recipes</a></li>
+            <li><a href="#">St Patrick's Day Recipes</a></li>
+            <li><a href="#">Easter Recipes</a></li>
+            <li><a href="#">Summer Recipes</a></li>
+            <li><a href="#">Halloween Recipes</a></li>
+            <li><a href="#">Thanksgiving Recipes</a></li>
+            <li><a href="#">Christmas Recipes</a></li>
+          </ul>
+        </div>
+        <div class="links-section">
+          <h4 class="links-heading">Classics</h4>
+          <ul class="links-list">
+            <li><a href="#">Beef Recipes</a></li>
+            <li><a href="#">Chicken Recipes</a></li>
+            <li><a href="#">Seafood Recipes</a></li>
+            <li><a href="#">Pasta Recipes</a></li>
+            <li><a href="#">Pork Recipes</a></li>
+            <li><a href="#">Fish Recipes</a></li>
+            <li><a href="#">Salad Recipes</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Social media links -->
+      <section class="social-links">
+        <div class="social-links-header">
+          <h4 class="logo">Food4thought</h4>
+          <div class="social-link-container">
+            <a href="#"><img src="./logo/twitter-white.svg" alt="#" /></a>
+            <a href="#"><img src="./logo/pinterest-white.svg" alt="#" /></a>
+            <a href="#"><img src="./logo/instagram-white.svg" alt="#" /></a>
+          </div>
+        </div>
+        <div class="site-map">
+          <div class="links-section">
+            <h4 class="links-heading">Site Map</h4>
+            <ul class="links-list">
+              <li><a href="#">Recipes & Menus</a></li>
+              <li><a href="#">Expert Advice</a></li>
+              <li><a href="#">Ingredients</a></li>
+              <li><a href="#">Holidays & Events</a></li>
+              <li><a href="#">Videos</a></li>
+            </ul>
+          </div>
+          <div class="links-section">
+            <h4 class="links-heading">Helpful Links</h4>
+            <ul class="links-list">
+              <li><a href="#">Subscription FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Accessibility Help</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Newsletter</a></li>
+            </ul>
+          </div>
+          <div class="links-section">
+            <h4 class="links-heading">Innovation Centre</h4>
+            <ul class="links-list">
+              <li><a href="#">Food4thought App</a></li>
+              <li><a href="#">Bon Apetit</a></li>
+              <li><a href="#">Gourmet</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer and acknowledgements -->
+    <footer>
+      <img src="./images/jump.jpg" alt="" />
+      <p>
+        &copy; 2023 <a href="https://github.com/IceCoffee426">IceCoffee426</a>
+      </p>
+      <p><a id="attributions-link" href="#">Image Attributions</a></p>
+    </footer>
+
+    <!-- Search modal -->
+    <div class="modal">
+      <div class="modal-content">
+        <button id="close-button" class="close-btn">×</button>
+        <div id="search-modal">
+          <div id="search-form" class="search-form">
+            <button class="material-icons search-btn">search</button>
+            <input
+              class="modal-search-box"
+              type="text"
+              placeholder="Find a recipe"
+            />
+          </div>
+        </div>
+
+        <!-- Attributions modal -->
+        <div id="attributions">
+          <h1>Image attributions</h1>
+          <h2>Header</h2>
+          <p>
+            Strawberries photo by
+            <a
+              href="https://unsplash.com/es/@zaibtse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >ZaiB Tse</a
+            >
+            on
+            <a
+              href="https://unsplash.com/images/food/fruits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <h2>Latest recipes</h2>
+          <p>
+            Blackberry shortcake photo by
+            <a
+              href="https://unsplash.com/@frostroomhead?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Rodion Kutsaiev</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/MuSRzi4m7Qs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Espresso martini photo by
+            <a
+              href="https://unsplash.com/@yesmorecontent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >YesMore Content</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/d6dYn8yyRhA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Shrimp linguine photo by
+            <a
+              href="https://unsplash.com/@shootdelicious?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Eiliv Aceron</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/GXFZjf6B2Hc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <h2>Cook now</h2>
+          <p>
+            Chicken legs photo by
+            <a
+              href="https://unsplash.com/@gekkeitaliana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Carla Limatola</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/rZyClxoeu2E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <h2>Featured articles</h2>
+          <p>
+            Chinese chicken photo by
+            <a
+              href="https://unsplash.com/es/@israelalbornoz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Israel Albornoz</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/8iiaALrjR54?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Bowl photo by
+            <a
+              href="https://unsplash.com/@copperandwild?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Dee @ Copper and Wild</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/nfaVw_CAt5U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Cocktails photo by
+            <a
+              href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Pawel Czerwinski</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/Zdw0WcZtwhY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Kitchen photo by
+            <a
+              href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Jason Briscoe</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/GliaHAJ3_5A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <h2>Big guide</h2>
+          <p>
+            Spring cake photo by
+            <a
+              href="https://unsplash.com/@momentance?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >SwapnIl Dwivedi</a
+            >
+            on
+            <a
+              href="https://unsplash.com/images/food/cake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Birthday cake photo by
+            <a
+              href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Annie Spratt</a
+            >
+            on
+            <a
+              href="https://unsplash.com/images/food/cake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Muffin photo by
+            <a
+              href="https://unsplash.com/es/@nyarlathotep?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Joshua Flores</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/5RQffqRkmWQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+          <p>
+            Flour photo by
+            <a
+              href="https://unsplash.com/de/@macroman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Immo Wegmann</a
+            >
+            on
+            <a
+              href="https://unsplash.com/photos/clUKWRNm27w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              >Unsplash</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
