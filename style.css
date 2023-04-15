@@ -374,6 +374,20 @@ header a span:focus {
   color: #333;
 }
 
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#github-logo {
+  height: 20px;
+  width: auto;
+  padding: 0;
+  padding-top: 1px;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

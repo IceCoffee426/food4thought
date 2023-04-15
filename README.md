@@ -1,6 +1,6 @@
 # Food4thought
 
-A fictional food and recipes website, inspired by a real website. Created as part of [The Jump](https://www.thejump.tech)'s full-stack web development bootcamp while learning HTML and CSS. [Live preview](https://icecoffee426.github.io/food4thought).
+A fictional food and recipes website, inspired by a real website. Created as part of [The Jump](https://www.thejump.tech)'s full-stack web development bootcamp while learning HTML and CSS. [Live preview](https://shubsmastan.github.io/food4thought).
 
 ## Description
 
@@ -8,7 +8,7 @@ An homage to a popular recipe and food news website, created to learn and apply 
 
 ## Author
 
-[@IceCoffee426](https://github.com/icecoffee426)
+[@ShubsMastan](https://github.com/shubsmastan)
 
 ## Version History
 
