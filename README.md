@@ -1,6 +1,6 @@
 # Food4thought
 
-[Live preview](https://shubsmastan.github.io/food4thought).<br />
+[Live preview](https://shubsmastan.github.io/food4thought).<br /><br />
 A fictional food and recipes website, inspired by a real website. Created as part of [The Jump](https://www.thejump.tech)'s full-stack web development bootcamp whilst learning HTML and CSS.
 
 ## Description
