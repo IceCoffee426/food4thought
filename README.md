@@ -1,10 +1,11 @@
 # Food4thought
 
-A fictional food and recipes website, inspired by a real website. Created as part of [The Jump](https://www.thejump.tech)'s full-stack web development bootcamp while learning HTML and CSS. [Live preview](https://shubsmastan.github.io/food4thought).
+[Live preview](https://shubsmastan.github.io/food4thought).<br />
+A fictional food and recipes website, inspired by a real website. Created as part of [The Jump](https://www.thejump.tech)'s full-stack web development bootcamp whilst learning HTML and CSS.
 
 ## Description
 
-An homage to a popular recipe and food news website, created to learn and apply CSS properties such as flex, grid, position and many other design properties. A hugely valuable learning task as part of learning the fundamentals of web design.
+An homage to a popular recipe and food news website, created to learn and apply CSS properties such as flex, grid, position and many other design properties. A hugely valuable learning task as part of learning the fundamentals of responsive web design.
 
 ## Author
 
